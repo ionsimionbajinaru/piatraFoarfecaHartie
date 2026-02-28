@@ -1,8 +1,21 @@
-# React + Vite
+# Piatra • Foarfeca • Hartie (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un mini-joc modern cu:
+- scor live pentru ambii jucatori + egaluri;
+- istoric pentru ultimele 8 runde;
+- interfata stilizata, responsive;
+- mesaje dinamice pentru rezultatul ultimei runde.
 
-Currently, two official plugins are available:
+## Rulare locala
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
+
+## Build productie
+
+```bash
+npm run build
+npm run preview
+```
